@@ -1,0 +1,165 @@
+/* to use z-index need to have position other than static */
+body{
+    font-family:"Monstserrat",sans-serif;
+    text-align: center;   
+}
+
+h1,h2,h3{
+    font-family: "Montserrat-Black",sans-serif;
+}
+
+p{
+    color:#8f8f8f;
+}
+/* heading section */
+.title-heading{
+
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height:1.5;
+    color:white;
+}
+.section-heading{
+    font-weight:bold;
+    font-size:2rem;
+
+}
+
+.container-fluid{
+    padding:3% 10% 5%;
+}
+
+/* section */
+.color-section{
+    background-color:#ff4c68;
+    color:#ffffff;
+}
+.white-section{
+    background-color:#ffffff;
+}
+/* title */
+
+.container-fluid .row{
+    text-align: left;
+}
+/* navigation bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight:bold;
+    
+}
+.nav-link{
+   
+    font-family:"Montserrat-Light";
+    font-size:1.2rem;
+
+}
+.nav-item{
+    padding:0 25px;
+}
+.container-fluid .navbar-padd{
+    padding-top: 5%;
+}
+/* iphone image */
+.iphone{
+    transform: rotate(20deg);
+    width:60%;
+    position:absolute;
+    right:30%
+   
+}
+/* download button */
+.download-button{
+    margin:5% 4% 5% 0;
+}
+/* icon */
+.icon{
+   color:#ef8172;
+   margin-bottom:10%;
+    
+}
+.icon:hover{
+    color:#ff4c88;
+}
+/* features */
+#features{
+  
+ 
+ position:relative;
+}
+.feature-box{
+   padding:7%;
+}
+
+
+/* testimonials */
+#testimonials{
+    background-color:#ef8172;
+    
+}
+.testimonials-image{
+    width:10%;
+    border-radius:100%;
+    margin:5%;
+}
+.testimonials-text{
+    
+    font-weight:bolder;
+    font-size:3rem;
+    padding-bottom:2%; 
+}
+.container-fluid .carousel-inner{
+    padding-top:5%;
+}
+
+/* press */
+#press{
+    background-color:#ef8172;
+}
+.press-image{
+    width:10%;
+    margin:0 3% 5%;
+    
+}
+
+/* pricing section */
+
+.card-box{
+    padding:3% 2%;
+
+}
+.card-body{
+    font-size:1.2rem;
+    line-height:2;
+    
+}
+/* cta section */
+.container-fluid .cta-text{
+    padding:3% 10% 1%;
+}
+
+
+/* footer section */
+
+.platform{
+   margin:15px 15px ;
+}
+
+
+
+@media (max-width:1030px){
+
+    #title{
+        text-align:center;
+    }
+
+    .iphone{
+        position:static;
+        transform:rotate(0);
+    }
+}
+
