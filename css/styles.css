@@ -46,6 +46,9 @@ p{
 .navbar{
     padding:0 0 4.5rem;
 }
+.container-fluid .title-box{
+    padding-bottom: 5%;
+}
 .navbar-brand{
     font-family: "Ubuntu", sans-serif;
     font-size: 2.5rem;
