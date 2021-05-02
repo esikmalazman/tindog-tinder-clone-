@@ -1,4 +1,4 @@
-#TinDog WEBSITE
+# TinDog Tinder Clone Website (Bootcamp Project Course)
 
 #WHAT DID I LEARN
 1.Learn how to apply CSS on html files
